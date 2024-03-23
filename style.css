@@ -63,6 +63,14 @@ body {
 }
 .home-content .link {
 	text-decoration: none;
+	color: #fb7185;
+}
+
+.about {
+	font-size: 18px;
+	color: #607b96;
+	margin-left: 130px;
+	margin-top: 90px;
 }
 
 .findme {
@@ -83,6 +91,7 @@ body {
 	margin-top: 10px;
 	text-decoration: none;
 	color: #607b96;
+	box-shadow: #011627;
 }
 .findme::after {
 	content: '';

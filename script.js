@@ -5,7 +5,3 @@ var typed = new Typed('#typed', {
 	loop: true,
 	cursorChar: '_',
 });
-
-$(document).ready(function () {
-	$('.owl-carousel').owlCarousel();
-});
