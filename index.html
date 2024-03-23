@@ -3,18 +3,19 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>rolek.me</title>
-		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"
-/>
+		<title>Rolek.me</title>
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+		<link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+		<link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
 		<link rel="stylesheet" href="style.css" />
-		<link rel="icon" href="imgs/logo.png">
+		<link style="color: black;" rel="icon" href="imgs/logo.png">
 	</head>
 	<body>
 		<nav class="navbar">
 			<div class="menu">
-				<button><a style="color: #d2b147">01.</a>Hello</button>
-				<button><a style="color: #b96379">02.</a>About Me</button>
-				<button><a style="color: #2467c0">03.</a>Projects</button>
+				<a href="index.html", class="btn"><span style="color: #d2b147">01.</span>Hello</a>
+				<a href="projects.html", class="btn"><span style="color: #b96379">02.</span>About Me</a>
+				<a href="projects.html", class="btn"><span style="color: #2467c0">03.</span>Projects</a>
 			</div>
 		</nav>
 
@@ -22,15 +23,23 @@
 			<div class="home-content">
 				<div class="text-1">Hi all. I am</div>
 				<div class="text-2">Rolek</div>
-				<div class="text-3"><span id="typed"></span></div>
+				<div class="text-3">> <span id="typed"></span></div>
 				<div class="text-4"> // you can also see it on my Github page</div>
-				<div class="text-5"><a style="color: #4D5BCE;">const</a> <a style="color: #43D9AD;">githubLink</a> = <a href="https://github.com/Rolek7", target="_blank" class="link">{github}</a></div>
+				<div class="text-5"><a style="color: #4D5BCE;">const</a> <a style="color: #43D9AD;">githubLink</a> = <a  target="_blank", style="color: #fb7185;" class="link">"https://github.com/Rolek7"</a></div>
 			</div>
 		</section>
 
-		<footer>
-			<span>Created By <a>@Rolek</a>
-	    </footer>
+		<div class="owl-carousel">
+			<div> Your Content </div>
+			<div> Your Content </div>
+			<div> Your Content </div>
+			<div> Your Content </div>
+			<div> Your Content </div>
+			<div> Your Content </div>
+			<div> Your Content </div>
+		  </div>
+
+		<footer><span>Created By <a>@Rolek</a></footer>
 
 		<div class="findme">
 			<span>find me in:</span>
@@ -40,6 +49,8 @@
 		
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>

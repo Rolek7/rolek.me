@@ -20,7 +20,7 @@ body {
 	display: flex;
 }
 
-button {
+.btn {
 	margin-left: 10px;
 	padding: 8px 15px;
 	border: none;
@@ -30,6 +30,7 @@ button {
 	font-size: 16px;
 	cursor: pointer;
 	font-family: Fira Code, monospace;
+	text-decoration: none;
 }
 
 .home {
@@ -61,7 +62,6 @@ button {
 	font-size: 16px;
 }
 .home-content .link {
-	color: #e99287;
 	text-decoration: none;
 }
 
@@ -126,5 +126,4 @@ footer {
 }
 footer span a {
 	color: #03a9f4;
-	text-decoration: none;
 }

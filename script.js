@@ -1,7 +1,11 @@
 var typed = new Typed('#typed', {
 	strings: ['Game Developer', 'Website Developer'],
-	typeSpeed: 25,
-	startdelay: 500,
-	backdelay: 1000,
-	backspeed: 35,
+	typeSpeed: 120,
+	backSpeed: 60,
+	loop: true,
+	cursorChar: '_',
+});
+
+$(document).ready(function () {
+	$('.owl-carousel').owlCarousel();
 });
