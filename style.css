@@ -73,6 +73,46 @@ body {
 	margin-top: 90px;
 }
 
+.container {
+	display: flex;
+	grid-template-columns: repeat(3, 1fr) !important;
+	gap: 20px; /* Dodatkowy margines między kartami */
+}
+
+.project-card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: 350px;
+}
+
+.project-img-container {
+	position: relative;
+}
+
+.project-img {
+	width: 100%;
+	height: auto;
+}
+
+.project-details {
+	font-weight: 900;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+}
+
+.project-date {
+	font-size: 14px;
+}
+
+.project-title {
+	font-size: 28px;
+	margin: 5px 0 0;
+}
+
 .findme {
 	color: #607b96;
 	padding: 15px 0px;
@@ -93,6 +133,7 @@ body {
 	color: #607b96;
 	box-shadow: #011627;
 }
+
 .findme::after {
 	content: '';
 	width: 1px;
