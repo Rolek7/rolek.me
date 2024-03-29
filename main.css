@@ -12,8 +12,8 @@ body {
 .navbar {
 	padding: 20px;
 	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	justify-content: flex-end !important;
+	align-items: center !important;
 }
 
 .menu {
@@ -31,86 +31,6 @@ body {
 	cursor: pointer;
 	font-family: Fira Code, monospace;
 	text-decoration: none;
-}
-
-.home {
-	display: flex;
-	height: 100vh;
-	color: #fff;
-	margin-left: 311.35px;
-	margin-top: 265px;
-}
-.home-content .text-1 {
-	font-size: 18px;
-}
-.home-content .text-2 {
-	font-size: 62px;
-	font-weight: retina;
-}
-.home-content .text-3 {
-	font-size: 40px;
-	margin: -5px 0;
-	color: #4d5bce;
-}
-.home-content .text-4 {
-	margin-top: 96px;
-	color: #607b96;
-	font-size: 16px;
-}
-.home-content .text-5 {
-	margin-top: 9px;
-	font-size: 16px;
-}
-.home-content .link {
-	text-decoration: none;
-	color: #fb7185;
-}
-
-.about {
-	font-size: 18px;
-	color: #607b96;
-	margin-left: 130px;
-	margin-top: 90px;
-}
-
-.container {
-	display: flex;
-	grid-template-columns: repeat(3, 1fr) !important;
-	gap: 20px; /* Dodatkowy margines między kartami */
-}
-
-.project-card {
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	overflow: hidden;
-	width: 350px;
-}
-
-.project-img-container {
-	position: relative;
-}
-
-.project-img {
-	width: 100%;
-	height: auto;
-}
-
-.project-details {
-	font-weight: 900;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	color: #fff;
-	padding: 10px;
-}
-
-.project-date {
-	font-size: 14px;
-}
-
-.project-title {
-	font-size: 28px;
-	margin: 5px 0 0;
 }
 
 .findme {

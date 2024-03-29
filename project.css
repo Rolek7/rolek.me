@@ -1,0 +1,51 @@
+body {
+	font-family: Fira Code, monospace;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #011627;
+}
+
+.container {
+	margin-left: 30;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Trzy kolumny o równej szerokości */
+	gap: 10px; /* Dodatkowy margines między kartami */
+}
+
+.project-card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: 350px;
+}
+
+.project-img-container {
+	position: relative;
+}
+
+.project-img {
+	width: 100%;
+	height: auto;
+}
+
+.project-details {
+	font-weight: 900;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+}
+
+.project-date {
+	font-size: 14px;
+}
+
+.project-title {
+	font-size: 28px;
+	margin: 5px 0 0;
+}

@@ -1,0 +1,32 @@
+.home {
+	display: flex;
+	height: 100vh;
+	color: #fff;
+	margin-left: 311.35px;
+	margin-top: 265px;
+}
+.home-content .text-1 {
+	font-size: 18px;
+}
+.home-content .text-2 {
+	font-size: 62px;
+	font-weight: retina;
+}
+.home-content .text-3 {
+	font-size: 40px;
+	margin: -5px 0;
+	color: #4d5bce;
+}
+.home-content .text-4 {
+	margin-top: 96px;
+	color: #607b96;
+	font-size: 16px;
+}
+.home-content .text-5 {
+	margin-top: 9px;
+	font-size: 16px;
+}
+.home-content .link {
+	text-decoration: none;
+	color: #fb7185;
+}
