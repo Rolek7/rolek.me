@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	background-color: #011627;
+}
+
+.container {
+	margin-left: 210px;
+	margin-top: 45px;
+	color: rgb(255, 255, 255);
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	font-size: 24px; /* Rozmiar tytułu */
+	margin-bottom: -6px;
+	font-weight: 400;
+}
+
+.date {
+	font-size: 16px; /* Rozmiar daty */
+	font-weight: 400;
+	margin-bottom: 75px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.description {
+	font-size: 16px;
+	max-width: 75%;
+}
