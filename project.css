@@ -1,19 +1,16 @@
 body {
 	font-family: Fira Code, monospace;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	height: 100vh;
 	background-color: #011627;
 }
 
 .container {
-	margin-left: 30;
-	display: grid;
 	grid-template-columns: repeat(3, 1fr); /* Trzy kolumny o równej szerokości */
 	gap: 10px; /* Dodatkowy margines między kartami */
+	margin-top: 5vh;
+	align-items: center;
+	justify-content: center;
+	display: grid;
 }
 
 .project-card {
@@ -41,11 +38,15 @@ body {
 	padding: 10px;
 }
 
-.project-date {
-	font-size: 14px;
-}
-
 .project-title {
 	font-size: 28px;
 	margin: 5px 0 0;
+}
+.project-date {
+	font-size: 14px;
+	margin-left: 0px;
+	margin-bottom: -10px;
+}
+.project-category {
+	font-size: 16px;
 }

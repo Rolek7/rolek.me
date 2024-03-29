@@ -12,8 +12,8 @@ body {
 .navbar {
 	padding: 20px;
 	display: flex;
-	justify-content: flex-end !important;
-	align-items: center !important;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .menu {
