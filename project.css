@@ -4,10 +4,28 @@ body {
 	background-color: #011627;
 }
 
+.sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 100vh;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.sidebar-text {
+	margin: 0px;
+	margin-top: 35%;
+	text-align: left;
+	color: #38c7bd;
+}
+
 .container {
-	grid-template-columns: repeat(3, 1fr); /* Trzy kolumny o równej szerokości */
-	gap: 10px; /* Dodatkowy margines między kartami */
-	margin-top: 5vh;
+	grid-template-columns: repeat(3, 0fr);
+	gap: 10px;
+	margin-right: 12vh;
+	margin-top: 4vh;
 	align-items: center;
 	justify-content: center;
 	display: grid;
